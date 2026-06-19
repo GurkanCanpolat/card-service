@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "card-service"
+    metrics_path: "/actuator/prometheus"
+    static_configs:
+      - targets: ["card-service:8080"]

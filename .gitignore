@@ -1,0 +1,68 @@
+# Maven
+
+target/
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+
+.vscode/
+
+# Eclipse / STS
+
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# Environment and secrets
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Logs
+
+*.log
+logs/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+
+coverage/
+jacoco.exec
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+
+# Local Docker overrides
+
+docker-compose.override.yml
+
+# Local bind-mounted data
+
+grafana-data/
+prometheus-data/
+postgres-data/
+kafka-data/

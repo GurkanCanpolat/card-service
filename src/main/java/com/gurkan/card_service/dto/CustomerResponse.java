@@ -1,0 +1,13 @@
+package com.gurkan.card_service.dto;
+
+import java.time.Instant;
+import java.util.UUID;
+
+public record CustomerResponse(
+        UUID id,
+        String fullName,
+        String email,
+        String phoneNumber,
+        Instant createdAt
+) {
+}
